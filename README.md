@@ -1,4 +1,5 @@
-This extension simply parses data from items on myfigurecollection.net
+This extension simply reads data from items on myfigurecollection.net and exports it as JSON.
+
 Intended use is for https://github.com/ueatmybrain/figure-search
 
 # How to use:
