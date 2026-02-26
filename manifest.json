@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Figure Data Extractor for Firefox",
+  "version": "1.0",
+  "description": "Let's you dump data of a figure on myfigurecollection.net to your clipboard in json format.",
+  "icons": {"64":"icon-64.png"},
+  "content_scripts": [
+    {
+      "matches": ["https://myfigurecollection.net/item/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
